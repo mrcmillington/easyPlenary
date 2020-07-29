@@ -2,24 +2,9 @@
 word = [];
 word.push("Reformatus","Nagy","Konyvtar");
 let count = 0;
-setup()
-
-function setup(){
-    loadWords(count);
-    document.querySelector("#progress").addEventListener("click",function(){
-
-        count+=1;
-    loadWords(count);
-    });
-}
-
-function loadWords(num){
-    document.querySelector("#scrambled").innerHTML = scramble(word[num]);
-    document.querySelector("#answer").innerHTML = '';
-    document.querySelector("#reveal").addEventListener('click',function() {
-        document.querySelector("#answer").innerHTML = word[num];
-
-    })
+loadGame();
+function loadGame(){
+    document.querySelector('#scrambledWord').innerHTML = word[count];
 }
 
 
