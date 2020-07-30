@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scramble</title>
+    <link rel="stylesheet" href="scramble.css">
+    <style>
+        span{
+            margin:15px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="selectWords">
+        <h1>Word Selector</h1>
+        <input type="text" id="newWord">
+        <button id="addWord">Add to List </button>
+        <p id="listWords"></p>
+        <button id="playGame">Play the game</button>
+    </div>
+
+    <div class="splashScreen">
+        <h1>Scrambler</h1>
+        <button class="start">Start</button>
+    </div>
+    <div class="game">
+        <h1>Scrambler</h1>
+        <p>The word below has been scrambled. Work out what the full word is</p>
+        <span id="scrambled">_____</span><span class="bttn"><button id="reveal">Reveal</button></span><span
+            id="original">word
+</span>
+        <br>
+        <button id="next">Next</button>
+    </div>
+
+    <div class="thatsAllFolks">
+        <h1>That's all folks</h1>
+    </div>
+</div>
+
+
+<script src="scramble.js"></script>
+</body>
+</html>

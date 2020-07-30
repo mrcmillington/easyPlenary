@@ -1,0 +1,20 @@
+.container{
+    width:75%;
+    margin:auto;
+    font-family: "American Typewriter";
+    font-size: 40pt;
+}
+button,input{
+    font-size: 36pt;
+    font-family: "American Typewriter";
+    padding: 20px;
+    border-radius: 125px;
+
+}
+fieldset{
+    border:0;
+}
+.game,.splashScreen,.thatsAllFolks{
+    display:none;
+}
+
